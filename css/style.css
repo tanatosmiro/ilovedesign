@@ -1,0 +1,131 @@
+body{
+font: 400 18px/1.67 'Segoe UI', sans-serif;
+color: #888a8b;
+}
+
+/* Layout */
+.ba-container{
+	padding-left: 20px;
+	padding-right: 20px;
+	max-width: 980px;
+}
+
+.ba-top {
+	background-color: #23232E;
+	color: #FFF;
+	text-align: center;
+	padding: 80px 0 280px;
+	position: relative;
+}
+.ba-title {
+	font-weight: 700;
+	font-size: 80px;
+	margin: 0 0 24px;
+	text-transform: uppercase;
+}
+.ba-header {
+	padding-bottom: 125px;
+}
+.ba-logo {
+	display: inline-block;
+}
+.ba-scroll {
+	display: inline-block;
+	width: 45px;
+	height: 45px;
+	background: url(../img/knopka.png);
+	position: absolute;
+	bottom: 50px;
+	left: 50%;
+	margin-left: -25px;
+}
+.ba-scroll:hover {
+	transform: scale(1.1);
+}
+.ba-main {
+	margin: 110px 0;
+	background: url(../img/background.jpg);
+}
+
+.ba-about {
+	color:  #464b4f;
+	font-weight: 400;
+	font-size: 30px;
+	line-height: 1.4em;
+	text-align: center;
+}
+.ba-second-title {
+	color:  #464b4f;
+	font-size: 80px;
+	font-weight: 700;
+	text-align: center;
+	text-transform: uppercase;
+	margin: 0 0 50px 0;
+}
+.ba-services {
+	text-align: center;
+	padding-top: 38px;
+}
+.ba-services h3 {
+	color:  #464b4f;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 30px;
+	margin: 0;
+	margin-bottom: 10px;
+}
+.template,
+.brand,
+.dreams {
+	display: inline-block;
+	width: 30%;
+	vertical-align: top;
+	text-align: left;
+}
+
+.brand {
+	margin: 0 15px 0 15px;
+}
+
+/* Typography */
+a,
+input[type="submit"],
+input[type="button"],
+button{
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button{
+	display: inline-block;
+}
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button:hover,
+.ba-button:hover{
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+select:focus {
+
+}
+textarea {
+
+}
